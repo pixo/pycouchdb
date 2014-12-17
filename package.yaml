@@ -1,4 +1,4 @@
-name : rezcouchdb
+name : pycouchdb
 
 uuid : bb83c747-1d7b-4bc1-bc01-d2fef4c6cb5d
 
@@ -12,5 +12,5 @@ version : 0.9.0
 
 commands:
 - export PYCOUCHDBVER=0.9.0
-- export PYCOUCHDB=$PACKAGE_PUBLIC/couchdb-python/$PYCOUCHDBVER
+- export PYCOUCHDB=!ROOT!/src
 - export PYTHONPATH=$PYCOUCHDB:$PYTHONPATH
