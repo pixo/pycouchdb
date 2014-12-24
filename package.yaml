@@ -7,10 +7,10 @@ authors : [couchdb-python]
 config_version : 0
 version : 0.9.0
 
-#requires :
-#- anytool
+requires :
+- hkenv
 
 commands:
 - export PYCOUCHDBVER=0.9.0
-- export PYCOUCHDB=/opt/couchdb-python/$PYCOUCHDBVER
+- export PYCOUCHDB=$HK_SHARE/couchdb-python/$PYCOUCHDBVER
 - export PYTHONPATH=$PYCOUCHDB:$PYTHONPATH
