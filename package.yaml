@@ -8,9 +8,9 @@ config_version : 0
 version : 0.9.0
 
 requires :
-- hkenv
+- badenv
 
 commands:
-- export PYCOUCHDBVER=0.9.0
-- export PYCOUCHDB=$HK_SHARE/couchdb-python/$PYCOUCHDBVER
+- export PYCOUCHDBVER=!VERSION!
+- export PYCOUCHDB=$BD_SHARE/couchdb-python/$PYCOUCHDBVER
 - export PYTHONPATH=$PYCOUCHDB:$PYTHONPATH
