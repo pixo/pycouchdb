@@ -7,10 +7,9 @@ authors : [couchdb-python]
 config_version : 0
 version : 0.9.0
 
-requires :
-- badenv
+# requires :
+# - badenv
 
 commands:
-- export PYCOUCHDBVER=!VERSION!
-- export PYCOUCHDB=$BD_SHARE/couchdb-python/$PYCOUCHDBVER
+- export PYCOUCHDB=$BD_SHARE/couchdb-python/!VERSION!
 - export PYTHONPATH=$PYCOUCHDB:$PYTHONPATH
